@@ -1,0 +1,43 @@
+.logo svg {
+  width: 300px;
+  height: 300px;
+}
+
+.logo {
+  margin: 2vw;
+  transition: 0.25s;
+  border-radius: 150px;
+}
+
+.logo:hover {
+  background-color: var(--main-hover-color);
+  transition: 0.5s;
+  -webkit-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.1);
+}
+
+.mainMenuWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.menuItemWrapper {
+  margin: 3vw;
+  padding: 25px;
+  background-color: none;
+  border-radius: 100px;
+  transition: 0.25s;
+}
+
+.hovered {
+  background-color: var(--main-hover-color) !important;
+  -webkit-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.1);
+  transition: 0.5s;
+}
+
+.menuItemWrapper a {
+  text-decoration: none;
+}
